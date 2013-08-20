@@ -282,7 +282,7 @@ body{
 	margin-top: 3em;
 }
 
-#musicheading h1,p{
+#musicheading h1{
 	text-align: center;
 }
 
@@ -293,7 +293,7 @@ body{
 }
 
 #icons li{
-font-size: 30px;
+font-size: 20px;
 margin-right: 16px;
 margin-left: 16px;
 display: inline;
