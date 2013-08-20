@@ -112,21 +112,17 @@ body{
 /*Styles for Projects Page*/
 
 #profile{
-	margin-top: 5em;
-	margin-bottom: 4em;
+	margin-top: 7em;
+	margin-bottom: 7em;
 	
 }
 
 #profile img{
 	margin-left: 5em;
-	margin-top: 6em;
+	margin-top: 3em;
 }
 
 #profile h2{
-	text-align: center;
-}
-
-#profile h4{
 	text-align: center;
 }
 
@@ -259,14 +255,6 @@ body{
 	margin-bottom: 5em;
 }
 
-.blog pre{
-	margin-left: 5em;
-	margin-right: 5em;
-	font-size: 12px;
-	background: #2B2B2B;
-	color: #629755;
-}
-
 #post_title{
 	text-decoration: underline;
 	text-align: center;
@@ -276,13 +264,9 @@ body{
 	text-align: center;
 }
 
-#post_created{
-	text-align: center;
-}
-
 #post_content{
-	margin-left: 3em;
-	margin-right: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
 	font-size: 17px;
 }
 
@@ -298,11 +282,7 @@ body{
 	margin-top: 2em;
 }
 
-#musicheading h1{
-	text-align: center;
-}
-
-#musicheading p{
+#musicheading h1,p{
 	text-align: center;
 }
 
@@ -322,7 +302,7 @@ transition: opacity .2s ease-in-out;
 }
 
 #icons a{
-	color: #386aa9;
+	color: white;
 }
 
 

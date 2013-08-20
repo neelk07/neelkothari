@@ -17,7 +17,7 @@
 				<p id="post_created">{{post.created}}</p>
 				<br>
 					{% if post.image_field %}
-						<img href="/static/img/{{post.image}}"/>
+						<img href="/static/img/{{post.image_name}}"/>
 						<br>
 					{% endif %}
 
@@ -43,7 +43,7 @@
 						<br>
 					{% endif %}
 
-				<p id="post_link">Link: <a href="https://{{post.url|urlencode}}">{{post.url_description}}</a></p>
+				<p id="post_link">Link: <a href="https://{{post.url}}">{{post.url_description}}</a></p>
 			</div>
 		
 
