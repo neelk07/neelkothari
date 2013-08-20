@@ -22,6 +22,7 @@ urlpatterns = patterns('',
     url(r'^$', landing_page),
     url(r'^blog/', blog),
     url(r'^profile/', profile),
+    url(r'^music/',music),
 
 
 )

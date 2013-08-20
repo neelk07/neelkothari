@@ -275,6 +275,15 @@ body{
 }
 
 
+/*Styles for Music Page*/
+
+#musicheading{
+	margin-top: 3em;
+}
+
+#musicheading h1{
+	text-align: center;
+}
 
 
 

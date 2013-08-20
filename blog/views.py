@@ -30,5 +30,12 @@ def profile(request):
 
 	})
 	return render_to_response('projects.html',variables)
+
+def music(request):
+
+	variables = RequestContext(request, {
+
+	})
+	return render_to_response('music.html',variables)
  
 
