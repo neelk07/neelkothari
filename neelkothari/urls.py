@@ -3,7 +3,7 @@ from django.conf.urls.defaults import *
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
-from blog.models import Post
+from blog.models import *
 from blog.views import *
 
 
