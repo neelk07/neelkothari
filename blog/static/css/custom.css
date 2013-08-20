@@ -255,6 +255,14 @@ body{
 	margin-bottom: 5em;
 }
 
+.blog pre{
+	margin-left: 5em;
+	margin-right: 5em;
+	font-size: 12px;
+	background: #2B2B2B;
+	color: #629755;
+}
+
 #post_title{
 	text-decoration: underline;
 	text-align: center;
@@ -264,9 +272,13 @@ body{
 	text-align: center;
 }
 
+#post_created{
+	text-align: center;
+}
+
 #post_content{
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 3em;
+	margin-right: 3em;
 	font-size: 17px;
 }
 
@@ -282,7 +294,11 @@ body{
 	margin-top: 2em;
 }
 
-#musicheading h1,p{
+#musicheading h1{
+	text-align: center;
+}
+
+#musicheading p{
 	text-align: center;
 }
 
