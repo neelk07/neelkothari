@@ -15,8 +15,25 @@
 				<h2 id="post_title">{{ post.title}}</h2>
 				<p class="lead" id="post_description">"{{post.description}}"</p>
 				<br>
-				<p id="post_content">{{post.content}}</p>
-				<p id="post_link">Link:<a href="https://{{post.slug}}">{{post.url_description}}</a></p>
+					{% if post.image_field %}
+						<img href="/static/img/{{post.image}}"/>
+						<br>
+					{% endif %}
+				<p id="post_content">{{post.section1}}</p>
+				<br>
+				<pre>{{post.code1|force_escape}}</pre>
+				<br>
+				<br>
+				<p id="post_content">{{post.section2}}</p>
+				<br>
+				<pre>{{post.code2|force_escape}}</pre>
+				<br>
+				<br>
+				<p id="post_content">{{post.section3}}</p>
+				<br>
+				<pre>{{post.code3|force_escape}}</pre>
+				<br>
+				<p id="post_link">Link:<a href="https://{{post.url|urlize}}">{{post.url_description}}</a></p>
 			</div>
 		
 
