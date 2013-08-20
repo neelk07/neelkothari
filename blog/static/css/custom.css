@@ -285,6 +285,24 @@ body{
 	text-align: center;
 }
 
+#icons{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+#icons li{
+font-size: 20px;
+margin-right: 16px;
+margin-left: 16px;
+display: inline;
+opacity: 0.5;
+transition: opacity .2s ease-in-out;
+}
+
+#icons a{
+	color: white;
+}
 
 
 
