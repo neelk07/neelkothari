@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 from blog.models import *
 from blog.views import *
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 
@@ -22,4 +23,7 @@ urlpatterns = patterns('',
     url(r'^blog/', blog),
     url(r'^profile/', profile),
 
+
 )
+
+urlpatterns += staticfiles_urlpatterns(),
