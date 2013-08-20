@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+            
+   {% block content %}
+
+	 
+
+	    <div class="row-fluid" id="profile">
+    		
+    		<div class="span4">
+    			<img src="/static/img/hackathon_neel.png" class="img-circle" />
+    			
+		    </div>
+		   
+		    <div class="span7">
+		    	<h2>Hey! I'm Neel Kothari</h2>
+
+		    	<br>
+
+          		 
+          		 <p>I love to work on mobile and web ideas in my free time. It's exciting to work on something from scratch and eventually evolve to a product that my friends and family can use. That is why I want to creatively solve the world's simplest problems through innovation. Currently I enjoy using Android and Django to build out my ideas.</p>
+
+          		 <br>
+
+          		 <p>If I'm not hacking, I'm probably working out, playing tennis, or jamming on my guitar. I picked up guitar and tennis in high school and haven't looked back since. My guitar of choice is a Schecter Hellraiser, which is as scary as it sounds! Just kidding, it actually looks beautiful and plays even better. I enjoy jamming to neoclassical and alternative rock. Currently I'm learning to play Red Hot Chili Peppers.</p>
+
+          		 <p>Hopefully this gave you a good sense of who I am. For more information about my projects check out some of my work below!</p>
+		    </div>
+		    
+		
+		</div>
+	</div><!-- ends container-fluid from base.html -->
+
+
+	<div class="row-fluid" id="selected_works">
+			<h2>Selected Works</h2>
+	</div>
+
+<!-- Begins Code Project -->
+
+	<div class="row-fluid" id="budge">
+			<h2>Budge (2013)</h2>
+	</div>
+
+
+	
+	<div class="container-fluid main-body">
+
+		<div id="project">
+			<div class="row-fluid">
+
+			 <div class="span4">
+
+			 	<div id="myCarousel" class="carousel slide">
+ 			 		<!-- Carousel items -->
+ 					 <div class="carousel-inner">
+ 	   					<div class="active item"><img src="/static/img/budge_screen1.png" class="img-square android" /></div>
+    					<div class="item"><img src="/static/img/budge_screen2.png" class="img-square android" /></div>
+    					<div class="item"><img src="/static/img/budge_screen3.png" class="img-square android" /></div>	
+  					</div>
+  					<!-- Carousel nav -->
+ 					 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+ 					 <a class="carousel-control right" href="#myCarousel" 	data-slide="next">&rsaquo;</a>
+				</div>
+    			
+
+    						
+		     </div>
+		   
+		     <div class="span6" id="project_description">
+		     		<h1>Budge</h1>
+		     		<h4>"Simplifying how you keep track of expenses"</h4>
+		     		<br>
+		     		<br>
+		     		<p>Budge is a smooth way to keep track of your budget. Choose your category and swipe the amount. The swipe is calibrated to your budget for fast and easy entry. No more entering in titles and long, unnecessary descriptions. Just fast easy entry! Budge also provides various different ways of visualizing your spending habits. Coming very soon to the Google Play store!</p>
+		     		<br>
+		     		<br>
+
+		     		<div id="technologies">
+		     			<p><strong>Technologies:</strong> Android, Parse SDK</p>
+		     			<br>
+		     			<br>
+
+
+
+		     			<img onclick="alert("Coming Soon");" src="/static/img/google_play.png" class="img-square" id="googleay" />
+		     		</div>
+
+
+		     </div>
+		    </div>
+
+		</div>
+	</div>
+
+<!-- Ends Code for Project -->
+<!-- Begins Code Project -->
+
+	<div class="row-fluid" id="accomplist">
+			<h2>Accomplist (2012)</h2>
+	</div>
+
+
+	
+	<div class="container-fluid main-body">
+
+		<div id="project">
+			<div class="row-fluid" id="web">
+
+			 <div class="span5">
+    			<img src="/static/img/accomplist_screen1.png" class="img-square" id="web" />				
+		     </div>
+		   
+		     <div class="span5" id="project_description">
+		     		<a href="accomplist.herokuapp.com"><h1>Accomplist</h1></a>
+		     		<h4>"Discover. Create. Accomplist."</h4>
+		     		<br>
+		     		<br>
+		     		<p>Accomplist is a social goal/bucketlist sharing 	website which allows uers to navigate and vote for their favorite items, comment on unique and interesting goals, share their own goals with others, and search for unique and inspirational
+					bucketlists. Visit the site at <a href="accomplist.herokuapp.com">accomplist.herokuapp.com</a> </p>
+		     		<br>
+		     		<br>
+
+		     		<div id="technologies">
+		     			<p><strong>Technologies:</strong> Django, Heroku</p>
+		     			<br>
+		     			<br>
+		     			
+		     		</div>
+
+
+		     </div>
+		    </div>
+
+		</div>
+	</div>
+
+<!-- Ends Code for Project -->
+
+<div class="row-fluid" id="selected_works">
+			<h2>More Coming Soon!</h2>
+	</div>
+
+	
+	<div>
+      
+      
+  {% endblock %}
+    
