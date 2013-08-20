@@ -20,9 +20,9 @@
 	<!-- CSS
   ================================================== -->
 	
-	<link rel="stylesheet" href="{{STATIC_ROOT}}/css/bootstrap.css">
-	<link rel="stylesheet" href="/static/css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="{STATIC_ROOT}}/css/custom.css">
+	<link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+	<link rel="stylesheet" href="{% static "css/bootstrap-responsive.css" %}">
+	<link rel="stylesheet" href="{% static "css/custom.css" %}">
 
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -61,9 +61,9 @@
 
 
 			<ul class="pull-right">
-				<li><img id="about_pic" src="/static/img/about2.png"/><a href="/profile/">Profile</a><li>
-				<li><img id="blog_pic" src="/static/img/blog2.png"/><a href="/blog/">Blog</a><li>
-				<li><img id="guitar_pic" src="/static/img/guitar2.png"/><a href="/music/">Music</a><li>
+				<li><img id="about_pic" src="{% static "img/about2.png" %}"/><a href="/profile/">Profile</a><li>
+				<li><img id="blog_pic" src="{% static "img/blog2.png" %}"/><a href="/blog/">Blog</a><li>
+				<li><img id="guitar_pic" src="{% static "img/guitar2.png" %}"/><a href="/music/">Music</a><li>
 			<ul>
 	</div><!-- navbar -->
 
