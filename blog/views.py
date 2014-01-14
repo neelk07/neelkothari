@@ -38,4 +38,8 @@ def music(request):
 	})
 	return render_to_response('music.html',variables)
  
-
+def budge(request):
+        
+        variables = RequestContext(request, {
+          })
+        return render_to_response('budge.html', variables)

@@ -1,5 +1,4 @@
 from django.conf.urls import patterns, include, url
-from django.conf.urls.defaults import *
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
@@ -23,7 +22,7 @@ urlpatterns = patterns('',
     url(r'^blog/', blog),
     url(r'^profile/', profile),
     url(r'^music/',music),
-
+    url(r'^budge/',budge),
 
 )
 
