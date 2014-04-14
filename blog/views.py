@@ -43,3 +43,9 @@ def budge(request):
         variables = RequestContext(request, {
           })
         return render_to_response('budge.html', variables)
+    
+def vl(request):
+        
+        variables = RequestContext(request, {
+          })
+        return render_to_response('index.html', variables)

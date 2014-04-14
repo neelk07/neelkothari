@@ -1,22 +1,70 @@
-{% extends "base.html" %}
+{% load staticfiles %}
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
+<link rel="stylesheet" href="{% static "css/style-custom.css" %}">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/main-grid-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="{% static "css/main-grid.css" %}">
+    <!--<![endif]-->
+  
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="{% static "css/blog.css" %}">
+    <!--<![endif]-->
+
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-med-1-4">
+        <div class="header">
+            <hgroup>
+                <h1 class="brand-title">Neel's Blog</h1>
+                <h2 class="brand-tagline">Coding</h2>
+                <h2 class="brand-tagline">Traveling</h2>
+                <h2 class="brand-tagline">Food/Cooking</h2>
+                <h2 class="brand-tagline">My Life in General</h2>
+            </hgroup>
+
             
-   {% block content %}
-	
-	
-		<div class="row-fluid">
-		  <div class="span8 offset2">
-			<h1 class="pull-left" id="blog_heading">My Thoughts...</h1>
-		  </div>
+        </div>
+    </div>
 
-		{% for post in posts %}
-		
+    <div class="content pure-u-1 pure-u-med-3-4">
+        <div>  
 
-			<div class="span8 offset2 well blog">
-				<h2 id="post_title">{{ post.title}}</h2>
-				<p class="lead" id="post_description">"{{post.description}}"</p>
-				<p id="post_created">{{post.created}}</p>
-				<br>
-					{% if post.image_field %}
+            <div class="posts">
+                <h1 class="content-subhead">Recent Posts</h1>
+
+            {% for post in posts %}
+
+                <section class="post">
+                    <header class="post-header">
+                        <img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="http://graph.facebook.com/1130444135/picture?type=large">
+
+                        <h2 class="post-title">{{post.title}}</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="http://www.neelkothari.com">Neel Kothari</a> on {{post.created}} under <a class="post-category post-category-js" href="#">{{post.description}}</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                    {% if post.image_field %}
 						<img src="/static/img/{{post.image_name}}"/>
 						<br>
 					{% endif %}
@@ -42,13 +90,47 @@
 						<p id="post_content">{{post.section3}}</p>
 						<br>
 					{% endif %}
+                        </p>
+                    </div>
+                </section>   
 
-				<p id="post_link">Link: <a href="{{post.url}}">{{post.url_description}}</a></p>
-			</div>
-		
+            {% endfor %}
 
-		{% endfor %}
-		</div>
+            </div>
+
+
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal pure-menu-open">
+                    <ul>
+                        <li><a href="http://purecss.io/">About</a></li>
+                        <li><a href="http://twitter.com/yuilibrary/">Twitter</a></li>
+                        <li><a href="http://github.com/yui/pure/">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+
+
+
+</body>
+</html>
+
+	
 		
 		
-	{% endblock %}

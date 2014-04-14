@@ -1,0 +1,104 @@
+/* basic styles for every page*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background-color: #00745B;
+	
+	
+}
+
+#title{
+	text-align: center;
+	color:#ffffff;
+	font-size: 10em;
+
+
+}
+
+
+.main-body{
+	width: 100%;
+	height: 100%;
+	background: #00745B;
+	color: #ffffff; 
+}
+
+
+#budge{
+	width: 103%;
+	margin-left: 0em;
+	margin-right: 0em;
+	background: #226651;
+
+}
+
+#budge h2{
+	text-align: center;
+	color: white;
+	
+}
+
+#project{
+	margin-top: 3em;
+}
+
+
+#project img{
+	margin-left: 5em;
+	margin-top: -3em;
+}
+
+#project h2{
+	text-align: center;
+}
+
+#project h4{
+	text-align: center;
+}
+
+#project p{
+	font-size: 15px;
+}
+
+.android{
+	height: 42em;
+	width: 24em;
+	margin-left: 3em;
+}
+
+#web{
+	margin-bottom: 5em;
+}
+
+#project_description{
+	margin-left: 12em;
+}
+
+#project_description a{
+	text-decoration: none;
+}
+
+#project_description a:hover{
+	color:white;
+}
+
+#project h1{
+	text-align: center;
+}
+
+#googleplay{
+	display: block;
+	text-align: center;
+}
+
+#technologies{
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#technologies img{
+	display: block;
+	margin: auto;
+}

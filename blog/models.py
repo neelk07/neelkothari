@@ -5,6 +5,7 @@ from django.core.urlresolvers import reverse
 class Post(models.Model):
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
+    tag = models.CharField(max_length = 100)
     image_name = models.CharField(blank = True,max_length=100)
     image_field = models.BooleanField(default=False)
     code_post = models.BooleanField(default=False)

@@ -1,0 +1,444 @@
+/* basic styles for every page*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.nav{
+	background: #386aa9;
+	height: 6em;
+	width: 103%;
+	color: white;
+	font-family: 'Roboto', serif;
+}
+
+.nav ul{
+	margin-top: 1em;
+	margin-right: 4em;
+}
+
+.nav ul li{
+	display: inline;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-size: 1.25em;
+}
+
+.nav ul li a{
+	color:white;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	color:#c1d1ea;
+}
+
+.nav h1{
+	margin-left: 3em;
+}
+
+
+
+
+.heading{
+	width: 10em;
+	height: 10em;
+	margin-left: 6em;
+	margin-top: 2em;
+}
+
+.main-body{
+	width: 100%;
+	height: 100%;
+	background: #c1d1ea; 
+}
+
+.main{
+
+}
+
+.main h3{
+	font-family: 'Roboto', serif;
+	text-align: center;
+}
+
+.main img{
+	display: block;
+	margin: auto;
+	margin-top: 7em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.main a{
+	text-decoration: none;
+}
+
+.main a:hover{
+	color: white;
+}
+
+#motto h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+#guitar_pic{
+	width: 3em;
+	height: 3em;
+	margin-right: .5em;
+}
+
+#blog_pic{
+	width: 3em;
+	height: 3em;
+	margin-right: .75em;
+}
+
+#about_pic{
+	width: 3em;
+	height: 3em;
+	margin-right: .75em;
+}
+
+#projects_pic{
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: .75em;
+}
+
+
+/*Styles for Projects Page*/
+
+#profile{
+	margin-top: 5em;
+	margin-bottom: 4em;
+	
+}
+
+#profile img{
+	margin-left: 5em;
+	margin-top: 6em;
+}
+
+#profile h2{
+	text-align: center;
+}
+
+#profile h4{
+	text-align: center;
+}
+
+#profile h3{
+	text-align: center;
+}
+
+#profile p{
+	font-size: 17px;
+	text-align: center;
+}
+
+
+#selected_works{
+	width: 103%;
+	margin-left: 0em;
+	margin-right: 0em;
+	background: #386aa9;
+
+}
+
+#selected_works h2{
+	text-align: center;
+	color: white;
+	
+}
+
+#budge{
+	width: 103%;
+	margin-left: 0em;
+	margin-right: 0em;
+	background: #226651;
+	color: white;
+
+}
+
+
+#budge h2{
+	text-align: center;	
+}
+
+#dailygood{
+	width: 103%;
+	margin-left: 0em;
+	margin-right: 0em;
+	background: #39A3D4;
+	color: white;
+
+}
+
+#dailygood h2{
+	text-align: center;
+}
+
+#accomplist{
+	width: 103%;
+	margin-left: 0em;
+	margin-right: 0em;
+	background: #817676;
+
+}
+
+#accomplist h2{
+	text-align: center;
+	color: white;
+	
+}
+
+#budge_project{
+	background-color: #00745B;
+}
+
+#campuscal{
+	background-color: #0078E7;	
+}
+
+#campuscal h2{
+	text-align: center;
+	color: white;
+}
+
+#github{
+	width: 100px;
+	height: 100px;
+}
+
+#project{
+	margin-top: 3em;
+}
+
+
+#project img{
+	margin-left: 5em;
+	margin-top: -3em;
+}
+
+#project h1{
+	font-size: 50px;
+}
+
+#project h2{
+	text-align: center;
+}
+
+#project h4{
+	text-align: center;
+}
+
+#project p{
+	font-size: 18px;
+}
+
+.android{
+	height: 625px;
+	width: 325px;
+	margin-left: 3em;
+}
+
+.web{
+	height: 350px;
+	width: 550px;
+	margin-left: 3em;
+}
+
+#caro_mobile{
+	width: 500px;
+}
+
+#caro_mobiledg{
+	width: 500px;
+}
+
+#caro_web{
+	width: 700px;
+}
+
+#web{
+	margin-bottom: 5em;
+}
+
+#project_description{
+	margin-left: 12em;
+}
+
+#project_description p{ 
+	font-size: 1.25em;
+	font-family: 'Lato', sans-serif;
+}
+
+#project_description a{
+	text-decoration: none;
+}
+
+#project_description a:hover{
+	color:white;
+}
+
+#project h1{
+	text-align: center;
+}
+
+#googleplay{
+	display: block;
+	text-align: center;
+}
+
+#technologies{
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#technologies img{
+	display: block;
+	margin: auto;
+}
+
+
+/*Styles for Blog Page*/
+
+#blog_heading{
+	color: white;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 5em;
+}
+
+.blog{
+	margin:auto;
+	margin-bottom: 5em;
+}
+
+.blog pre{
+	margin-left: 5em;
+	margin-right: 5em;
+	font-size: 12px;
+	background: #2B2B2B;
+	color: #629755;
+}
+
+.blog img{
+	margin: 1em;
+}
+
+#post_title{
+	text-decoration: underline;
+	text-align: center;
+}
+
+#post_description{
+	text-align: center;
+}
+
+#post_created{
+	text-align: center;
+}
+
+#post_content{
+	margin-left: 3em;
+	margin-right: 3em;
+	font-size: 17px;
+}
+
+#post_link{
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/*Styles for Music Page*/
+
+#musicheading{
+	margin-top: 2em;
+}
+
+#musicheading h1{
+	text-align: center;
+}
+
+#musicheading p{
+	text-align: center;
+}
+
+#icons{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+#icons li{
+font-size: 30px;
+margin-right: 16px;
+margin-left: 16px;
+display: inline;
+opacity: 0.5;
+transition: opacity .2s ease-in-out;
+}
+
+#icons a{
+	color: #386aa9;
+}
+
+#icons a:hover{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

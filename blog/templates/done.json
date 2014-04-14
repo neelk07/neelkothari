@@ -1,0 +1,897 @@
+{
+    "name": "THE ONCE AND FUTURE KING",
+    "children":[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "name": "think", 
+                        "size": 120
+                    }, 
+                    {
+                        "name": "grummore", 
+                        "size": 121
+                    }, 
+                    {
+                        "name": "see", 
+                        "size": 114
+                    }, 
+                    {
+                        "name": "sir", 
+                        "size": 311
+                    }, 
+                    {
+                        "name": "end", 
+                        "size": 72
+                    }, 
+                    {
+                        "name": "make", 
+                        "size": 51
+                    }, 
+                    {
+                        "name": "master", 
+                        "size": 66
+                    }, 
+                    {
+                        "name": "take", 
+                        "size": 62
+                    }, 
+                    {
+                        "name": "way", 
+                        "size": 94
+                    }, 
+                    {
+                        "name": "got", 
+                        "size": 84
+                    }, 
+                    {
+                        "name": "might", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "poor", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "head", 
+                        "size": 78
+                    }, 
+                    {
+                        "name": "get", 
+                        "size": 89
+                    }, 
+                    {
+                        "name": "time", 
+                        "size": 138
+                    }, 
+                    {
+                        "name": "kay", 
+                        "size": 191
+                    }, 
+                    {
+                        "name": "come", 
+                        "size": 123
+                    }, 
+                    {
+                        "name": "day", 
+                        "size": 55
+                    }, 
+                    {
+                        "name": "man", 
+                        "size": 118
+                    }, 
+                    {
+                        "name": "oh", 
+                        "size": 82
+                    }, 
+                    {
+                        "name": "ector", 
+                        "size": 169
+                    }, 
+                    {
+                        "name": "round", 
+                        "size": 86
+                    }, 
+                    {
+                        "name": "thought", 
+                        "size": 59
+                    }, 
+                    {
+                        "name": "night", 
+                        "size": 63
+                    }, 
+                    {
+                        "name": "found", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "side", 
+                        "size": 58
+                    }
+                ], 
+                "name": "Nouns"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "boy", 
+                        "size": 90
+                    }, 
+                    {
+                        "name": "great", 
+                        "size": 61
+                    }, 
+                    {
+                        "name": "good", 
+                        "size": 120
+                    }, 
+                    {
+                        "name": "old", 
+                        "size": 114
+                    }, 
+                    {
+                        "name": "tree", 
+                        "size": 49
+                    }, 
+                    {
+                        "name": "little", 
+                        "size": 74
+                    }, 
+                    {
+                        "name": "air", 
+                        "size": 47
+                    }, 
+                    {
+                        "name": "beast", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "sword", 
+                        "size": 52
+                    }, 
+                    {
+                        "name": "last", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "first", 
+                        "size": 74
+                    }
+                ], 
+                "name": "Adjectives"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "stood", 
+                        "size": 64
+                    }, 
+                    {
+                        "name": "look", 
+                        "size": 81
+                    }, 
+                    {
+                        "name": "keep", 
+                        "size": 50
+                    }, 
+                    {
+                        "name": "feet", 
+                        "size": 49
+                    }, 
+                    {
+                        "name": "say", 
+                        "size": 100
+                    }, 
+                    {
+                        "name": "merlyn", 
+                        "size": 206
+                    }, 
+                    {
+                        "name": "go", 
+                        "size": 148
+                    }, 
+                    {
+                        "name": "tell", 
+                        "size": 50
+                    }
+                ], 
+                "name": "Verbs"
+            }
+        ], 
+        "name": "THE SWORD IN THE STONE - CHP 1"
+    }, 
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "name": "head", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "battle", 
+                        "size": 41
+                    }, 
+                    {
+                        "name": "see", 
+                        "size": 72
+                    }, 
+                    {
+                        "name": "done", 
+                        "size": 24
+                    }, 
+                    {
+                        "name": "pellinore", 
+                        "size": 62
+                    }, 
+                    {
+                        "name": "want", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "go", 
+                        "size": 56
+                    }, 
+                    {
+                        "name": "keep", 
+                        "size": 25
+                    }, 
+                    {
+                        "name": "sir", 
+                        "size": 121
+                    }, 
+                    {
+                        "name": "make", 
+                        "size": 36
+                    }, 
+                    {
+                        "name": "fight", 
+                        "size": 27
+                    }, 
+                    {
+                        "name": "behind", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "lot", 
+                        "size": 43
+                    }, 
+                    {
+                        "name": "time", 
+                        "size": 51
+                    }, 
+                    {
+                        "name": "war", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "ought", 
+                        "size": 33
+                    }, 
+                    {
+                        "name": "meg", 
+                        "size": 27
+                    }, 
+                    {
+                        "name": "mother", 
+                        "size": 52
+                    }, 
+                    {
+                        "name": "stop", 
+                        "size": 25
+                    }, 
+                    {
+                        "name": "let", 
+                        "size": 28
+                    }, 
+                    {
+                        "name": "unicorn", 
+                        "size": 41
+                    }, 
+                    {
+                        "name": "catch", 
+                        "size": 27
+                    }, 
+                    {
+                        "name": "kay", 
+                        "size": 30
+                    }, 
+                    {
+                        "name": "come", 
+                        "size": 62
+                    }, 
+                    {
+                        "name": "day", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "man", 
+                        "size": 62
+                    }, 
+                    {
+                        "name": "look", 
+                        "size": 46
+                    }, 
+                    {
+                        "name": "oh", 
+                        "size": 44
+                    }, 
+                    {
+                        "name": "gawaine", 
+                        "size": 68
+                    }, 
+                    {
+                        "name": "side", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "thing", 
+                        "size": 47
+                    }, 
+                    {
+                        "name": "arthur", 
+                        "size": 78
+                    }, 
+                    {
+                        "name": "merlyn", 
+                        "size": 78
+                    }, 
+                    {
+                        "name": "night", 
+                        "size": 30
+                    }, 
+                    {
+                        "name": "went", 
+                        "size": 38
+                    }, 
+                    {
+                        "name": "round", 
+                        "size": 52
+                    }, 
+                    {
+                        "name": "something", 
+                        "size": 43
+                    }
+                ], 
+                "name": "Nouns"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "good", 
+                        "size": 62
+                    }, 
+                    {
+                        "name": "old", 
+                        "size": 68
+                    }, 
+                    {
+                        "name": "gareth", 
+                        "size": 55
+                    }, 
+                    {
+                        "name": "fellow", 
+                        "size": 25
+                    }, 
+                    {
+                        "name": "beast", 
+                        "size": 63
+                    }, 
+                    {
+                        "name": "dear", 
+                        "size": 24
+                    }, 
+                    {
+                        "name": "castle", 
+                        "size": 36
+                    }, 
+                    {
+                        "name": "magician", 
+                        "size": 25
+                    }, 
+                    {
+                        "name": "mean", 
+                        "size": 25
+                    }
+                ], 
+                "name": "Adjectives"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "sort", 
+                        "size": 27
+                    }, 
+                    {
+                        "name": "love", 
+                        "size": 25
+                    }, 
+                    {
+                        "name": "like", 
+                        "size": 124
+                    }, 
+                    {
+                        "name": "get", 
+                        "size": 34
+                    }, 
+                    {
+                        "name": "say", 
+                        "size": 59
+                    }, 
+                    {
+                        "name": "take", 
+                        "size": 30
+                    }, 
+                    {
+                        "name": "way", 
+                        "size": 42
+                    }, 
+                    {
+                        "name": "think", 
+                        "size": 65
+                    }
+                ], 
+                "name": "Verbs"
+            }
+        ], 
+        "name": "THE QUEEN OF AIR AND DARKNESS - CHP 2"
+    }, 
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "name": "heart", 
+                        "size": 57
+                    }, 
+                    {
+                        "name": "help", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "guenever", 
+                        "size": 162
+                    }, 
+                    {
+                        "name": "armour", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "something", 
+                        "size": 56
+                    }, 
+                    {
+                        "name": "table", 
+                        "size": 67
+                    }, 
+                    {
+                        "name": "face", 
+                        "size": 56
+                    }, 
+                    {
+                        "name": "saw", 
+                        "size": 59
+                    }, 
+                    {
+                        "name": "everybody", 
+                        "size": 56
+                    }, 
+                    {
+                        "name": "horse", 
+                        "size": 59
+                    }, 
+                    {
+                        "name": "court", 
+                        "size": 52
+                    }, 
+                    {
+                        "name": "god", 
+                        "size": 92
+                    }, 
+                    {
+                        "name": "make", 
+                        "size": 69
+                    }, 
+                    {
+                        "name": "fight", 
+                        "size": 81
+                    }, 
+                    {
+                        "name": "galahad", 
+                        "size": 88
+                    }, 
+                    {
+                        "name": "way", 
+                        "size": 86
+                    }, 
+                    {
+                        "name": "got", 
+                        "size": 69
+                    }, 
+                    {
+                        "name": "side", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "head", 
+                        "size": 71
+                    }, 
+                    {
+                        "name": "sword", 
+                        "size": 55
+                    }, 
+                    {
+                        "name": "get", 
+                        "size": 84
+                    }, 
+                    {
+                        "name": "began", 
+                        "size": 71
+                    }, 
+                    {
+                        "name": "hand", 
+                        "size": 64
+                    }, 
+                    {
+                        "name": "uncle", 
+                        "size": 53
+                    }, 
+                    {
+                        "name": "world", 
+                        "size": 60
+                    }, 
+                    {
+                        "name": "lady", 
+                        "size": 77
+                    }, 
+                    {
+                        "name": "day", 
+                        "size": 60
+                    }, 
+                    {
+                        "name": "man", 
+                        "size": 184
+                    }, 
+                    {
+                        "name": "great", 
+                        "size": 88
+                    }, 
+                    {
+                        "name": "look", 
+                        "size": 56
+                    }, 
+                    {
+                        "name": "knight", 
+                        "size": 169
+                    }, 
+                    {
+                        "name": "gawaine", 
+                        "size": 80
+                    }, 
+                    {
+                        "name": "lancelot", 
+                        "size": 577
+                    }, 
+                    {
+                        "name": "round", 
+                        "size": 68
+                    }, 
+                    {
+                        "name": "thing", 
+                        "size": 93
+                    }, 
+                    {
+                        "name": "elaine", 
+                        "size": 146
+                    }, 
+                    {
+                        "name": "time", 
+                        "size": 141
+                    }, 
+                    {
+                        "name": "think", 
+                        "size": 92
+                    }
+                ], 
+                "name": "Nouns"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "little", 
+                        "size": 51
+                    }, 
+                    {
+                        "name": "last", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "knew", 
+                        "size": 77
+                    }, 
+                    {
+                        "name": "want", 
+                        "size": 75
+                    }, 
+                    {
+                        "name": "old", 
+                        "size": 71
+                    }, 
+                    {
+                        "name": "castle", 
+                        "size": 97
+                    }
+                ], 
+                "name": "Adjectives"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "sir", 
+                        "size": 297
+                    }, 
+                    {
+                        "name": "life", 
+                        "size": 58
+                    }, 
+                    {
+                        "name": "good", 
+                        "size": 101
+                    }, 
+                    {
+                        "name": "love", 
+                        "size": 113
+                    }, 
+                    {
+                        "name": "see", 
+                        "size": 115
+                    }, 
+                    {
+                        "name": "took", 
+                        "size": 52
+                    }, 
+                    {
+                        "name": "arthur", 
+                        "size": 202
+                    }, 
+                    {
+                        "name": "say", 
+                        "size": 90
+                    }
+                ], 
+                "name": "Verbs"
+            }
+        ], 
+        "name": "THE ILL-MADE KNIGHT - CHP 3"
+    }, 
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "name": "guenever", 
+                        "size": 51
+                    }, 
+                    {
+                        "name": "england", 
+                        "size": 38
+                    }, 
+                    {
+                        "name": "jenny", 
+                        "size": 28
+                    }, 
+                    {
+                        "name": "ca", 
+                        "size": 36
+                    }, 
+                    {
+                        "name": "life", 
+                        "size": 28
+                    }, 
+                    {
+                        "name": "course", 
+                        "size": 32
+                    }, 
+                    {
+                        "name": "say", 
+                        "size": 70
+                    }, 
+                    {
+                        "name": "kill", 
+                        "size": 31
+                    }, 
+                    {
+                        "name": "something", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "go", 
+                        "size": 107
+                    }, 
+                    {
+                        "name": "sir", 
+                        "size": 148
+                    }, 
+                    {
+                        "name": "mother", 
+                        "size": 34
+                    }, 
+                    {
+                        "name": "justice", 
+                        "size": 48
+                    }, 
+                    {
+                        "name": "way", 
+                        "size": 33
+                    }, 
+                    {
+                        "name": "man", 
+                        "size": 121
+                    }, 
+                    {
+                        "name": "tell", 
+                        "size": 30
+                    }, 
+                    {
+                        "name": "poor", 
+                        "size": 35
+                    }, 
+                    {
+                        "name": "head", 
+                        "size": 54
+                    }, 
+                    {
+                        "name": "door", 
+                        "size": 51
+                    }, 
+                    {
+                        "name": "get", 
+                        "size": 34
+                    }, 
+                    {
+                        "name": "nobody", 
+                        "size": 34
+                    }, 
+                    {
+                        "name": "nothing", 
+                        "size": 40
+                    }, 
+                    {
+                        "name": "come", 
+                        "size": 90
+                    }, 
+                    {
+                        "name": "gawaine", 
+                        "size": 186
+                    }, 
+                    {
+                        "name": "look", 
+                        "size": 44
+                    }, 
+                    {
+                        "name": "room", 
+                        "size": 39
+                    }, 
+                    {
+                        "name": "agravaine", 
+                        "size": 84
+                    }, 
+                    {
+                        "name": "brother", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "lancelot", 
+                        "size": 183
+                    }, 
+                    {
+                        "name": "face", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "thing", 
+                        "size": 33
+                    }, 
+                    {
+                        "name": "arthur", 
+                        "size": 159
+                    }, 
+                    {
+                        "name": "time", 
+                        "size": 73
+                    }, 
+                    {
+                        "name": "done", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "voice", 
+                        "size": 33
+                    }, 
+                    {
+                        "name": "round", 
+                        "size": 41
+                    }
+                ], 
+                "name": "Nouns"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "good", 
+                        "size": 70
+                    }, 
+                    {
+                        "name": "last", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "gareth", 
+                        "size": 73
+                    }, 
+                    {
+                        "name": "give", 
+                        "size": 29
+                    }, 
+                    {
+                        "name": "long", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "used", 
+                        "size": 37
+                    }, 
+                    {
+                        "name": "let", 
+                        "size": 55
+                    }, 
+                    {
+                        "name": "want", 
+                        "size": 46
+                    }, 
+                    {
+                        "name": "lord", 
+                        "size": 35
+                    }, 
+                    {
+                        "name": "mean", 
+                        "size": 30
+                    }
+                ], 
+                "name": "Adjectives"
+            }, 
+            {
+                "children": [
+                    {
+                        "name": "made", 
+                        "size": 63
+                    }, 
+                    {
+                        "name": "old", 
+                        "size": 86
+                    }, 
+                    {
+                        "name": "make", 
+                        "size": 38
+                    }, 
+                    {
+                        "name": "see", 
+                        "size": 74
+                    }, 
+                    {
+                        "name": "know", 
+                        "size": 66
+                    }, 
+                    {
+                        "name": "think", 
+                        "size": 77
+                    }
+                ], 
+                "name": "Verbs"
+            }
+        ], 
+        "name": "THE CANDLE IN THE WIND - CHP 4"
+    }
+]
+}
