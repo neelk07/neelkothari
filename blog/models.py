@@ -1,11 +1,17 @@
 from django.db import models
 from django.core.urlresolvers import reverse
  
+ 
+class Tag(models.Model):
+    name = models.CharField(max_length = 100)
+
+    def __unicode__(self): 
+        return u'%s' % self.name
 
 class Post(models.Model):
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
-    tag = models.CharField(max_length = 100)
+    tag = models.ForeignKey(Tag)
     image_name = models.CharField(blank = True,max_length=100)
     image_field = models.BooleanField(default=False)
     code_post = models.BooleanField(default=False)
@@ -28,3 +34,7 @@ class Post(models.Model):
     
     def get_absolute_url(self):
         return reverse('blog.views.post', args=[self.slug])
+
+
+
+

@@ -23,7 +23,7 @@ urlpatterns = patterns('',
     url(r'^profile/', profile),
     url(r'^music/',music),
     url(r'^budge/',budge),
-    url(r'^vl/',vl),
+    url(r'^viz/hp/',hp),
 
 )
 
